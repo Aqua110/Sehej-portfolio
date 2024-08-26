@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-txt{
+    font-size: xx-large;
+    
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+.menu-list-item:hover , .active{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    transition: all 200ms ease-in;
+}
+
+.menu-list-item{
+    padding: 0.75vh 0;
+    margin: 0.25vh 2vw;
+    color: grey;
+}
