@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Sehej-portfolio/static/css/main.163abfe2.css",
+    "main.js": "/Sehej-portfolio/static/js/main.098ca4d9.js",
+    "static/js/453.6171d5ac.chunk.js": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js",
+    "static/media/hero-video.webm": "/Sehej-portfolio/static/media/hero-video.54b0e065c9db8dee0000.webm",
+    "index.html": "/Sehej-portfolio/index.html",
+    "main.163abfe2.css.map": "/Sehej-portfolio/static/css/main.163abfe2.css.map",
+    "main.098ca4d9.js.map": "/Sehej-portfolio/static/js/main.098ca4d9.js.map",
+    "453.6171d5ac.chunk.js.map": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.163abfe2.css",
+    "static/js/main.098ca4d9.js"
+  ]
+}
