@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/Sehej-portfolio/static/css/main.163abfe2.css",
-    "main.js": "/Sehej-portfolio/static/js/main.098ca4d9.js",
+    "main.css": "/Sehej-portfolio/static/css/main.ee232ced.css",
+    "main.js": "/Sehej-portfolio/static/js/main.377a4873.js",
     "static/js/453.6171d5ac.chunk.js": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js",
     "static/media/hero-video.webm": "/Sehej-portfolio/static/media/hero-video.54b0e065c9db8dee0000.webm",
+    "static/media/MeieScript-Regular.ttf": "/Sehej-portfolio/static/media/MeieScript-Regular.c33493100b2057b93ad1.ttf",
+    "static/media/TenorSans-Regular.ttf": "/Sehej-portfolio/static/media/TenorSans-Regular.0d22289d38b3d37f95b6.ttf",
+    "static/media/Livvic-Regular.ttf": "/Sehej-portfolio/static/media/Livvic-Regular.9994035d65e433690b4a.ttf",
+    "static/media/MarckScript-Regular.ttf": "/Sehej-portfolio/static/media/MarckScript-Regular.5b6142752f3269576cc7.ttf",
+    "static/media/Tangerine-Regular.ttf": "/Sehej-portfolio/static/media/Tangerine-Regular.6b04eb83dd71e2762243.ttf",
+    "static/media/MrDeHaviland-Regular.ttf": "/Sehej-portfolio/static/media/MrDeHaviland-Regular.5f7dc1c382552ee3a6c0.ttf",
+    "static/media/instagram.webp": "/Sehej-portfolio/static/media/instagram.0c90bb1454ba25eb449d.webp",
+    "static/media/pintrest.webp": "/Sehej-portfolio/static/media/pintrest.7019dd35e9b3dab8021b.webp",
+    "static/media/vimeo.webp": "/Sehej-portfolio/static/media/vimeo.d87ddff5eed360291325.webp",
+    "static/media/youtube.webp": "/Sehej-portfolio/static/media/youtube.d9ce0d0869c359036cbb.webp",
+    "static/media/facebook.webp": "/Sehej-portfolio/static/media/facebook.7ca43c356dd45955bcef.webp",
     "index.html": "/Sehej-portfolio/index.html",
-    "main.163abfe2.css.map": "/Sehej-portfolio/static/css/main.163abfe2.css.map",
-    "main.098ca4d9.js.map": "/Sehej-portfolio/static/js/main.098ca4d9.js.map",
+    "main.ee232ced.css.map": "/Sehej-portfolio/static/css/main.ee232ced.css.map",
+    "main.377a4873.js.map": "/Sehej-portfolio/static/js/main.377a4873.js.map",
     "453.6171d5ac.chunk.js.map": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.163abfe2.css",
-    "static/js/main.098ca4d9.js"
+    "static/css/main.ee232ced.css",
+    "static/js/main.377a4873.js"
   ]
 }
