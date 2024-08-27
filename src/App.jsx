@@ -1,5 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
+import "./Assets/css/font.css"
+import "./Assets/css/var.css"
 import Header from './componenets/Header';
 import Home from './componenets/Home';
 import Work from './componenets/Work';
@@ -16,7 +18,6 @@ function App() {
         <Route path='/photography' element={<Photography/>}></Route>
         <Route path='/about'element={<About/>}></Route>
       </Routes>
-      
     </Router>
   );
 }

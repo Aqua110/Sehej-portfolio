@@ -4,6 +4,7 @@ const photography = () => {
   return (
     <div>
       
+      
     </div>
   )
 }

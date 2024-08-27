@@ -3,6 +3,14 @@ import { Link } from 'react-router-dom'
 import '../Assets/css/Header.css'
 
 const Header = () => {
+
+  const nav_links =[
+    {Page : 'Home',link : '/'},
+    {Page : 'work',link : '/work'},
+    {Page : 'Photography',link : '/photography'},
+    {Page : 'About',link : '/about'}
+  ]
+
   return (
     <>
       <nav>
@@ -11,10 +19,13 @@ const Header = () => {
         </div>
         <div className="menu-container">
           <ul className="menu-list">
-            <li><Link className="menu-list-item" to= '/'>Home</Link></li>
-            <li><Link className="menu-list-item" to='/work'>Work</Link></li>
-            <li><Link className="menu-list-item" to='/photography'>Photography</Link></li>
-            <li><Link className="menu-list-item" to='/about'>About</Link></li>
+            {
+              nav_links.map((element)=>{
+                return(
+                  <li><Link className="menu-list-item" to={element.link}>{element.Page}</Link></li>
+                )
+              })
+            }
           </ul>
         </div> 
       </nav>      
