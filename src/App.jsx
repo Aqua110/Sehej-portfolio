@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import "./Assets/css/font.css"
 import "./Assets/css/var.css"
@@ -10,7 +9,7 @@ import About from './componenets/About';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/Sehej-portfolio'>
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
