@@ -1,0 +1,25 @@
+@font-face {
+    font-family: meieScript;
+    src: url(../fonts/MeieScript-Regular.ttf);
+}
+@font-face {
+    font-family: marckScript;
+    src: url(../fonts/MarckScript-Regular.ttf);
+}
+@font-face {
+    font-family: tangerine;
+    src: url(../fonts/Tangerine-Regular.ttf);
+}
+@font-face {
+    font-family: tenorSans;
+    src: url(../fonts/TenorSans-Regular.ttf);
+}
+@font-face {
+    font-family: livvic;
+    src: url(../fonts/Livvic-Regular.ttf);
+}
+@font-face {
+    font-family: MrDeHaviland;
+    src: url(../fonts/MrDeHaviland-Regular.ttf);
+}
+

@@ -4,8 +4,44 @@
     overflow: hidden;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .hero-video{
-    object-fit: cover;
-    
+    object-fit: cover;    
+}
+.hero-tagline-container{
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-tagline{
+    font-size: xx-large;
+    font-family: tenorSans;
+    line-height: 9vh;
+    text-align: center;
+}
+.hero-tagline>.highlight{
+    color: var(--highlighted-text-color);
+    font-family: meieScript;
+    font-size: 12vh;
+}
+.hero-tagline>.bold{
+    font-size: 15vh;
+    font-family: MrDeHaviland;
+}
+.hero-social-link-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh;
+}
+.hero-socail-link{
+    height: 3vh;
+    padding: 1vh;
 }
