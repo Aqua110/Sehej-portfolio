@@ -9,11 +9,12 @@ import About from './componenets/About';
 
 function App() {
   return (
-    <Router basename='/Sehej-portfolio'>
+    // <Router basename='/Sehej-portfolio'>
+    <Router>
       <Header/>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/work' element={<Work/>}></Route>
+        {/* <Route path='/' element={<Home/>}></Route> */}
+        <Route path='/' element={<Work/>}></Route>
         <Route path='/photography' element={<Photography/>}></Route>
         <Route path='/about'element={<About/>}></Route>
       </Routes>
