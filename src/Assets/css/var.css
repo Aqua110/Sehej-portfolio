@@ -1,4 +1,8 @@
 :root{
     --highlighted-text-color: #CBAC00;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 

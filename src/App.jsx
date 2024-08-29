@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import "./Assets/css/font.css"
 import "./Assets/css/var.css"
@@ -13,8 +12,8 @@ function App() {
     <Router basename="/sehej-portfolio">
       <Header/>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/work' element={<Work/>}></Route>
+        {/* <Route path='/' element={<Home/>}></Route> */}
+        <Route path='/' element={<Work/>}></Route>
         <Route path='/photography' element={<Photography/>}></Route>
         <Route path='/about'element={<About/>}></Route>
       </Routes>
