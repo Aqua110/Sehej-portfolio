@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sehej-portfolio/static/css/main.ee232ced.css",
-    "main.js": "/Sehej-portfolio/static/js/main.377a4873.js",
+    "main.css": "/Sehej-portfolio/static/css/main.67f304d8.css",
+    "main.js": "/Sehej-portfolio/static/js/main.c15a10d2.js",
     "static/js/453.6171d5ac.chunk.js": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js",
     "static/media/hero-video.webm": "/Sehej-portfolio/static/media/hero-video.54b0e065c9db8dee0000.webm",
     "static/media/MeieScript-Regular.ttf": "/Sehej-portfolio/static/media/MeieScript-Regular.c33493100b2057b93ad1.ttf",
@@ -14,14 +14,16 @@
     "static/media/pintrest.webp": "/Sehej-portfolio/static/media/pintrest.7019dd35e9b3dab8021b.webp",
     "static/media/vimeo.webp": "/Sehej-portfolio/static/media/vimeo.d87ddff5eed360291325.webp",
     "static/media/youtube.webp": "/Sehej-portfolio/static/media/youtube.d9ce0d0869c359036cbb.webp",
+    "static/media/close.webp": "/Sehej-portfolio/static/media/close.3c8688045062f829a9da.webp",
+    "static/media/menu.webp": "/Sehej-portfolio/static/media/menu.996fea61a13ccd363430.webp",
     "static/media/facebook.webp": "/Sehej-portfolio/static/media/facebook.7ca43c356dd45955bcef.webp",
     "index.html": "/Sehej-portfolio/index.html",
-    "main.ee232ced.css.map": "/Sehej-portfolio/static/css/main.ee232ced.css.map",
-    "main.377a4873.js.map": "/Sehej-portfolio/static/js/main.377a4873.js.map",
+    "main.67f304d8.css.map": "/Sehej-portfolio/static/css/main.67f304d8.css.map",
+    "main.c15a10d2.js.map": "/Sehej-portfolio/static/js/main.c15a10d2.js.map",
     "453.6171d5ac.chunk.js.map": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee232ced.css",
-    "static/js/main.377a4873.js"
+    "static/css/main.67f304d8.css",
+    "static/js/main.c15a10d2.js"
   ]
 }
