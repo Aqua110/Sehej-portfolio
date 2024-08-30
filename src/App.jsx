@@ -2,18 +2,21 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import "./Assets/css/font.css"
 import "./Assets/css/var.css"
 import Header from './componenets/Header';
-import Home from './componenets/Home';
+// import Home from './componenets/Home';
 import Work from './componenets/Work';
+import WorkPage from './componenets/sub pages/WorkPage'
 import Photography from './componenets/Photography';
 import About from './componenets/About';
 
 function App() {
+
+  
   return (
     <Router basename='/Sehej-portfolio'>
-    {/* <Router> */}
       <Header/>
       <Routes>
         {/* <Route path='/' element={<Home/>}></Route> */}
+        <Route path='/title' element={<WorkPage/>}></Route>
         <Route path='/' element={<Work/>}></Route>
         <Route path='/photography' element={<Photography/>}></Route>
         <Route path='/about'element={<About/>}></Route>

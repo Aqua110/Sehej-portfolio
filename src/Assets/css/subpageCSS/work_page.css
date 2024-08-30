@@ -1,0 +1,29 @@
+.work-page-container{
+    margin: 60px 120px;
+}
+.work-page-title{
+    font-size: 60px;
+    color: var(--highlighted-text-color);
+}
+.work-page-desc{
+    width: 30vw;
+    margin-top: 20px;
+}
+.work-page-main-img-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.work-page-main-img{
+    max-width: 80vw;
+    max-height: 80vh;
+}
+.work-page-main-img-container::after{
+    content: '';
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left:20%;
+    background-color: lightgray;
+}
