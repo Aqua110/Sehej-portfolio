@@ -1,9 +1,15 @@
 {
   "files": {
-    "main.css": "/Sehej-portfolio/static/css/main.67f304d8.css",
-    "main.js": "/Sehej-portfolio/static/js/main.c15a10d2.js",
+    "main.css": "/Sehej-portfolio/static/css/main.b1d9525e.css",
+    "main.js": "/Sehej-portfolio/static/js/main.3d178996.js",
     "static/js/453.6171d5ac.chunk.js": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js",
+    "static/media/Ashwin&Khushbu_WeddingInvitationDesign.webp": "/Sehej-portfolio/static/media/Ashwin&Khushbu_WeddingInvitationDesign.9ecbd2c34c3ed612e8f9.webp",
     "static/media/hero-video.webm": "/Sehej-portfolio/static/media/hero-video.54b0e065c9db8dee0000.webm",
+    "static/media/AsterionStarPetCBD_PackagingDesign.webp": "/Sehej-portfolio/static/media/AsterionStarPetCBD_PackagingDesign.5276698d45b4ee806562.webp",
+    "static/media/HKRNcover.webp": "/Sehej-portfolio/static/media/HKRNcover.2ee16efb6fbad222b034.webp",
+    "static/media/Kunal&Shreya_WeddingInvitationDesign.webp": "/Sehej-portfolio/static/media/Kunal&Shreya_WeddingInvitationDesign.c9be2af21856269dfed3.webp",
+    "static/media/Ted&Karna_WeddingInvitationDesign.webp": "/Sehej-portfolio/static/media/Ted&Karna_WeddingInvitationDesign.40545d5d4496ea6f2c33.webp",
+    "static/media/YagaLiving.webp": "/Sehej-portfolio/static/media/YagaLiving.c4bd1ce24cf86c72deb5.webp",
     "static/media/MeieScript-Regular.ttf": "/Sehej-portfolio/static/media/MeieScript-Regular.c33493100b2057b93ad1.ttf",
     "static/media/TenorSans-Regular.ttf": "/Sehej-portfolio/static/media/TenorSans-Regular.0d22289d38b3d37f95b6.ttf",
     "static/media/Livvic-Regular.ttf": "/Sehej-portfolio/static/media/Livvic-Regular.9994035d65e433690b4a.ttf",
@@ -18,12 +24,12 @@
     "static/media/menu.webp": "/Sehej-portfolio/static/media/menu.996fea61a13ccd363430.webp",
     "static/media/facebook.webp": "/Sehej-portfolio/static/media/facebook.7ca43c356dd45955bcef.webp",
     "index.html": "/Sehej-portfolio/index.html",
-    "main.67f304d8.css.map": "/Sehej-portfolio/static/css/main.67f304d8.css.map",
-    "main.c15a10d2.js.map": "/Sehej-portfolio/static/js/main.c15a10d2.js.map",
+    "main.b1d9525e.css.map": "/Sehej-portfolio/static/css/main.b1d9525e.css.map",
+    "main.3d178996.js.map": "/Sehej-portfolio/static/js/main.3d178996.js.map",
     "453.6171d5ac.chunk.js.map": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67f304d8.css",
-    "static/js/main.c15a10d2.js"
+    "static/css/main.b1d9525e.css",
+    "static/js/main.3d178996.js"
   ]
 }
