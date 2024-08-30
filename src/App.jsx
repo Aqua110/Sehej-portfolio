@@ -9,7 +9,8 @@ import About from './componenets/About';
 
 function App() {
   return (
-    <Router basename="/sehej-portfolio">
+    <Router basename='/Sehej-portfolio'>
+    {/* <Router> */}
       <Header/>
       <Routes>
         {/* <Route path='/' element={<Home/>}></Route> */}

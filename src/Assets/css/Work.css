@@ -1,0 +1,50 @@
+.work-body{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 60px;
+}
+.hero-para{
+    font-size: 30px;
+    width: 50%;
+    font-weight: 100;
+}
+.hero-para>.highlight{
+    color: var(--highlighted-text-color);
+    font-size: 40px;
+}
+.work-card-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work-card{
+    margin: 30px 0;
+}
+.work-img-container{
+    width: 28vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.work-img{
+    object-fit: cover;
+    width: 30vw;
+}
+.work-img:hover{
+    transform: scale(.9);
+    transition: all 700ms ease-in;
+    cursor: pointer;
+}
+.work-title{
+    margin-top: 10px;
+    width: 25vw;
+    font-size: 30px;
+    color: var(--highlighted-text-color);
+}
+.work-type{
+    font-weight: 100;
+    font-size: 18px;
+}
