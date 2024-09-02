@@ -27,7 +27,8 @@
 }
 .work-img{
     object-fit: cover;
-    width: 30vw;
+    min-width: 28vw;
+    min-height: 40;
 }
 .work-img:hover{
     transform: scale(.9);
@@ -42,7 +43,8 @@
     height: 70vh;
 }
 .work-card:nth-child(7)>.work-img-container>.work-img{
-    width: 100%;
+    height: 100%;
+    width: 80%;
 }
 .work-card:nth-child(7)>.work-img-container>.work-img:hover{
     transform: scale(.95);

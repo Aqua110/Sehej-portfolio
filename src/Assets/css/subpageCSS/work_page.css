@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 2;
 }
 .work-page-main-img{
     max-width: 80vw;
@@ -25,5 +26,21 @@
     position: absolute;
     top: 30%;
     left:20%;
-    background-color: lightgray;
+    background-color: #A4D75D;
+    z-index: -1;
+    border-radius: 100px 0 0 100px;
+}
+.work-desc-container{
+    width: 50vw;
+    margin: 40px auto;
+    text-align: justify;
+}
+.more-img-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+
+}
+.more-img{
+    height: 40vh;
 }

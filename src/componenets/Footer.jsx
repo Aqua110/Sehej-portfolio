@@ -7,7 +7,6 @@ import vimeo_icon from '../Assets/icons/vimeo.webp'
 import youtube_icon from '../Assets/icons/youtube.webp'
 import phone_icon from '../Assets/icons/phone.webp'
 import mail_icon from '../Assets/icons/mail.webp'
-import location_icon from '../Assets/icons/location.webp'
 
 const Footer = () => {
 
@@ -34,13 +33,12 @@ const Footer = () => {
             }
            </ul>
           <div className="footer-contact">
-            <div className="contact-item"><img src={phone_icon} alt="contact" className="contact-icon" /><p className="contact-para">9891234678</p></div>
-            <div className="contact-item"><img src={mail_icon} alt="contact" className="contact-icon" /><p className="contact-para">sehej@xyz.com</p></div>
-            <div className="contact-item"><img src={location_icon} alt="location" className="contact-icon" /><p className="contact-para">D-913, New friends colony,<br /> Delhi - 110092</p></div>
+            <div className="contact-item"><img src={phone_icon} alt="contact" className="contact-icon" /><p className="contact-para">8744050851</p></div>
+            <div className="contact-item"><img src={mail_icon} alt="contact" className="contact-icon" /><p className="contact-para"> sehejk24@gmail.com</p></div> 
           </div>
         </div>
         <div className="copyright-container">
-          <p className="copyright-para">&copy; 2024 All right resrved | Developed by Aqdas Rehman</p>
+          <p className="copyright-para">&copy; 2024 All rights reserved</p>
         </div>
       </div>
       
