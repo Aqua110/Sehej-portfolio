@@ -1,0 +1,30 @@
+.about-container{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+.about-inner-container{
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+}
+.about-main-img-container{
+    width: 40%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-main-img{
+    width: 100%;
+}
+.about-content-container{
+    width: 40%;
+}
+.about-heading{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: markScript;
+    text-transform: uppercase;
+}
