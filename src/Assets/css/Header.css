@@ -19,7 +19,7 @@ nav{
     padding: 0.75vh 0;
     /* position: relative; */
 }
-.menu-list-item:hover , .active{
+.menu-list-item:hover{
     font-weight: bold;
     transition: all 200ms ease-in;
 }
