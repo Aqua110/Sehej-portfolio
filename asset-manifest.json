@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sehej-portfolio/static/css/main.d44e1f09.css",
-    "main.js": "/Sehej-portfolio/static/js/main.1edada28.js",
+    "main.css": "/Sehej-portfolio/static/css/main.157dabca.css",
+    "main.js": "/Sehej-portfolio/static/js/main.597a12a5.js",
     "static/js/453.6171d5ac.chunk.js": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js",
     "static/media/Ashwin&Khushbu_WeddingInvitationDesign.webp": "/Sehej-portfolio/static/media/Ashwin&Khushbu_WeddingInvitationDesign.9ecbd2c34c3ed612e8f9.webp",
     "static/media/turkey cover.webm": "/Sehej-portfolio/static/media/turkey cover.77a680e3ade9d10874e9.webm",
@@ -29,7 +29,6 @@
     "static/media/instagram.webp": "/Sehej-portfolio/static/media/instagram.0c90bb1454ba25eb449d.webp",
     "static/media/pintrest.webp": "/Sehej-portfolio/static/media/pintrest.7019dd35e9b3dab8021b.webp",
     "static/media/vimeo.webp": "/Sehej-portfolio/static/media/vimeo.d87ddff5eed360291325.webp",
-    "static/media/location.webp": "/Sehej-portfolio/static/media/location.96d6f451a57a32651b31.webp",
     "static/media/mail.webp": "/Sehej-portfolio/static/media/mail.4ce35fed09c243b4f208.webp",
     "static/media/phone.webp": "/Sehej-portfolio/static/media/phone.0dea3b99fdba65d560bb.webp",
     "static/media/youtube.webp": "/Sehej-portfolio/static/media/youtube.d9ce0d0869c359036cbb.webp",
@@ -37,12 +36,12 @@
     "static/media/menu.webp": "/Sehej-portfolio/static/media/menu.996fea61a13ccd363430.webp",
     "static/media/facebook.webp": "/Sehej-portfolio/static/media/facebook.7ca43c356dd45955bcef.webp",
     "index.html": "/Sehej-portfolio/index.html",
-    "main.d44e1f09.css.map": "/Sehej-portfolio/static/css/main.d44e1f09.css.map",
-    "main.1edada28.js.map": "/Sehej-portfolio/static/js/main.1edada28.js.map",
+    "main.157dabca.css.map": "/Sehej-portfolio/static/css/main.157dabca.css.map",
+    "main.597a12a5.js.map": "/Sehej-portfolio/static/js/main.597a12a5.js.map",
     "453.6171d5ac.chunk.js.map": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d44e1f09.css",
-    "static/js/main.1edada28.js"
+    "static/css/main.157dabca.css",
+    "static/js/main.597a12a5.js"
   ]
 }
