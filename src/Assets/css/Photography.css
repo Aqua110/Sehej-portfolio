@@ -22,7 +22,9 @@
     margin-top: 10px;
     width: 20vw;
     text-align: center;
-    font-family: Merienda;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--highlighted-text-color);
 }
 .album-card:nth-child(7)>.album-card-img-container{
     width: 85vw;
