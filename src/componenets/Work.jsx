@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Route } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 // import WorkDetails from './sub pages/Work_details'
 import '../Assets/css/Work.css'
 import work_img1 from '../Assets/img/Ashwin&Khushbu_WeddingInvitationDesign.webp'
@@ -35,14 +35,14 @@ const Work = () => {
           {
             work_data.map((i)=>{
               return(
-                <div className="work-card">
+                <div className="work-card"><Link to='/title'>
                   <div className="work-img-container">
                     <img src={i.img} alt={i.type} className="work-img"/>
                   </div>
                   <div className="work-title-container">
                     <p className="work-title">{i.title}</p>
                     <h1 className="work-type">{i.type}</h1>
-                  </div>
+                  </div></Link>
                 </div> 
               )
             })
