@@ -7,6 +7,7 @@ import Work from './componenets/Work';
 import WorkPage from './componenets/sub pages/WorkPage'
 import Photography from './componenets/Photography';
 import About from './componenets/About';
+import Footer from './componenets/Footer';
 
 function App() {
 
@@ -14,13 +15,14 @@ function App() {
   return (
     <Router basename='/Sehej-portfolio'>
       <Header/>
-      <Routes>
-        {/* <Route path='/' element={<Home/>}></Route> */}
-        <Route path='/title' element={<WorkPage/>}></Route>
-        <Route path='/' element={<Work/>}></Route>
-        <Route path='/photography' element={<Photography/>}></Route>
-        <Route path='/about'element={<About/>}></Route>
-      </Routes>
+        <Routes>
+          {/* <Route path='/' element={<Home/>}></Route> */}
+          <Route path='/title' element={<WorkPage/>}></Route>
+          <Route path='/' element={<Work/>}></Route>
+          <Route path='/photography' element={<Photography/>}></Route>
+          <Route path='/about'element={<About/>}></Route>
+        </Routes>
+        <Footer/>
     </Router>
   );
 }
