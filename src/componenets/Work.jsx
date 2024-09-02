@@ -35,14 +35,16 @@ const Work = () => {
           {
             work_data.map((i)=>{
               return(
-                <div className="work-card"><Link to='/title'>
-                  <div className="work-img-container">
-                    <img src={i.img} alt={i.type} className="work-img"/>
-                  </div>
+                <div className="work-card">
+                  <Link to='/title'>
+                    <div className="work-img-container">
+                      <img src={i.img} alt={i.type} className="work-img"/>
+                    </div>
+                  </Link>
                   <div className="work-title-container">
                     <p className="work-title">{i.title}</p>
                     <h1 className="work-type">{i.type}</h1>
-                  </div></Link>
+                  </div>
                 </div> 
               )
             })
