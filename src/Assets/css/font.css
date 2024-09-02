@@ -22,4 +22,8 @@
     font-family: MrDeHaviland;
     src: url(../fonts/MrDeHaviland-Regular.ttf);
 }
+@font-face {
+    font-family: Merienda;
+    src: url(../fonts/Merienda-VariableFont_wght.ttf);
+}
 

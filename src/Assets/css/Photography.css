@@ -1,0 +1,36 @@
+.album-container{
+    margin: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.album-card{
+    margin: 30px 4vw;
+}
+.album-card-img-container{
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.album-card-img{
+    height: 35vh;
+}
+.album-title{
+    margin-top: 10px;
+    width: 20vw;
+    text-align: center;
+    font-family: Merienda;
+}
+.album-card:nth-child(7)>.album-card-img-container{
+    width: 85vw;
+    height: 50vh;
+}
+.album-card:nth-child(7)>.album-card-img-container>.album-card-img{
+    height: 70vh;
+}
+.album-card:nth-child(7)>.album-title-container>.album-title{
+    width: 85vw;
+}
