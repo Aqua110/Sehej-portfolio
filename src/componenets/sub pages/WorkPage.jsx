@@ -1,30 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useParams } from 'react-router'
 import '../../Assets/css/subpageCSS/work_page.css'
-import main_img from '../../Assets/img/MilkyMoo_Brand Identity Design.webp'
+import { workData } from '../../data/workData'
 
 const WorkPage = () => {
+
+  const param = useParams();
+  const [work_data] = useState(workData);
+  const [project] = useState(work_data[param.id-1]);
+
   return (
     <>
         <div className="work-page-container">
           <div className="work-page-title-container">
             <p className="work-page-title">
-              Milky Moo
+              {project.title}
             </p>
-            <p className="work-page-desc">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia fugiat, dolores laborum quas voluptatibus harum nisi facere placeat vero excepturi.  
-            </p> 
+            <p className="work-page-desc">{project.desc1}</p> 
           </div>          
         </div>
         <div className="work-page-main-img-container">
-          <img src={main_img} alt="" className="work-page-main-img" />
+          <img src={project.img} alt="" className="work-page-main-img" />
         </div>
         <div className="work-desc-container">
-          <p className="work-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tenetur sunt quaerat corrupti a assumenda at maxime quo quidem aliquid! Quae commodi aliquid at eligendi exercitationem pariatur sunt itaque, ipsa veritatis? Maxime consequuntur voluptas provident impedit maiores minus, sit voluptatum reprehenderit tenetur! Fugit unde earum libero nihil assumenda accusantium nostrum sapiente id temporibus impedit eveniet, excepturi reiciendis. Totam sint, dignissimos eos perspiciatis odit voluptates? Quos facilis quisquam tempora maxime beatae quia veniam totam. Ullam, provident nobis sunt est maiores numquam praesentium quisquam ducimus ut nesciunt reprehenderit sit quas quaerat corrupti non at quibusdam facere, quasi architecto delectus magni voluptas quo.</p>
+          <p className="work-desc">{project.desc2}</p>
         </div>
         <div className="more-img-container">
-          <img src={main_img} alt="" className="more-img" />
-          <img src={main_img} alt="" className="more-img" />
+          {
+            project.img2.map((i)=>{
+              return(
+                <img src={i} alt={project.type} className="more-img" />
+              )            
+            })
+          }
         </div>
+        
     </>
   )
 }

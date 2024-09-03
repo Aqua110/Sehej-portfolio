@@ -16,7 +16,7 @@ const Photography = () => {
           album_list.map((i)=>{
             if(i.video===null){
               return(
-                  <div className="album-card" onClick={()=>{navigate('/album');}}>
+                  <div className="album-card" onClick={()=>{navigate('/title');}}>
                     <div className="album-card-img-container">
                       <img src={i.img} alt={i.title} className="album-card-img"/>
                     </div>
@@ -28,7 +28,7 @@ const Photography = () => {
             }
             else if(i.img===null){
               return(
-                <div className="album-card">
+                <div className="album-card" onClick={()=>{navigate('/title');}}>
                   <div className="album-card-img-container">
                     <video src={i.video} className="album-card-video" autoPlay muted loop></video>
                   </div>
@@ -40,8 +40,7 @@ const Photography = () => {
             }
             else{
               return(
-                <Link to='/photography/album' className='album-link'>
-                <div className="album-card">
+                <div className="album-card"onClick={()=>{navigate('/title');}}>
                   <div className="album-card-img-container">
                     <img src={i.img} alt={i.title} className="album-card-img"/>
                   </div>
@@ -49,7 +48,6 @@ const Photography = () => {
                     <h1 className="album-title">{i.title}</h1>
                   </div>
                 </div>
-                </Link>
               )
             }
           })

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import "./Assets/css/font.css"
 import "./Assets/css/var.css"
@@ -10,18 +11,17 @@ import About from './componenets/About';
 import Footer from './componenets/Footer';
 import AlbumPage from './componenets/sub pages/AlbumPage';
 
-function App() {
-
-  
+function App() {  
   return (
     <Router basename='/Sehej-portfolio'>
       <Header/>
         <Routes>
           {/* <Route path='/' element={<Home/>}></Route> */}
           <Route path='/' element={<Work/>}></Route>
-          <Route path='/title' element={<WorkPage/>}></Route>
-          <Route path='/album' element={<AlbumPage/>}></Route>
+          <Route path=':id' element={<WorkPage/>}></Route>
+            {/* <Route path=':id' element={<AlbumPage/>}></Route> */}
           <Route path='/photography' element={<Photography/>}></Route>
+          <Route path='/title' element={<AlbumPage/>}></Route>
           <Route path='/about'element={<About/>}></Route>
         </Routes>
         <Footer/>
