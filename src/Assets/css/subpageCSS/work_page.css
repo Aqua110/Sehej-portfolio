@@ -18,6 +18,7 @@
 .work-page-main-img{
     max-width: 80vw;
     max-height: 80vh;
+    /* box-shadow: 0  6px 20px -4px black; */
 }
 .work-page-main-img-container::after{
     content: '';

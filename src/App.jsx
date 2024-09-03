@@ -8,6 +8,7 @@ import WorkPage from './componenets/sub pages/WorkPage'
 import Photography from './componenets/Photography';
 import About from './componenets/About';
 import Footer from './componenets/Footer';
+import AlbumPage from './componenets/sub pages/AlbumPage';
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
       <Header/>
         <Routes>
           {/* <Route path='/' element={<Home/>}></Route> */}
-          <Route path='/title' element={<WorkPage/>}></Route>
           <Route path='/' element={<Work/>}></Route>
+          <Route path='/title' element={<WorkPage/>}></Route>
+          <Route path='/album' element={<AlbumPage/>}></Route>
           <Route path='/photography' element={<Photography/>}></Route>
           <Route path='/about'element={<About/>}></Route>
         </Routes>
