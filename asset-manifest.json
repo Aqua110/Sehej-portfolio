@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sehej-portfolio/static/css/main.69dbe71a.css",
-    "main.js": "/Sehej-portfolio/static/js/main.0fec1cfa.js",
+    "main.css": "/Sehej-portfolio/static/css/main.3f9366d7.css",
+    "main.js": "/Sehej-portfolio/static/js/main.dde6999a.js",
     "static/js/453.6171d5ac.chunk.js": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js",
     "static/media/Ashwin&Khushbu_WeddingInvitationDesign.webp": "/Sehej-portfolio/static/media/Ashwin&Khushbu_WeddingInvitationDesign.9ecbd2c34c3ed612e8f9.webp",
     "static/media/turkey cover.webm": "/Sehej-portfolio/static/media/turkey cover.77a680e3ade9d10874e9.webm",
@@ -41,12 +41,12 @@
     "static/media/facebook.webp": "/Sehej-portfolio/static/media/facebook.7ca43c356dd45955bcef.webp",
     "static/media/segej logo.webp": "/Sehej-portfolio/static/media/segej logo.a477d12944fdff184438.webp",
     "index.html": "/Sehej-portfolio/index.html",
-    "main.69dbe71a.css.map": "/Sehej-portfolio/static/css/main.69dbe71a.css.map",
-    "main.0fec1cfa.js.map": "/Sehej-portfolio/static/js/main.0fec1cfa.js.map",
+    "main.3f9366d7.css.map": "/Sehej-portfolio/static/css/main.3f9366d7.css.map",
+    "main.dde6999a.js.map": "/Sehej-portfolio/static/js/main.dde6999a.js.map",
     "453.6171d5ac.chunk.js.map": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69dbe71a.css",
-    "static/js/main.0fec1cfa.js"
+    "static/css/main.3f9366d7.css",
+    "static/js/main.dde6999a.js"
   ]
 }
