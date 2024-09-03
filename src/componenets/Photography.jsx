@@ -1,33 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import '../Assets/css/Photography.css'
-import album_img1 from '../Assets/img/people cover.webp'
-import album_img2 from '../Assets/img/nature cover.webp'
-import album_img3 from '../Assets/img/dubai cover.webp'
-import album_img4 from '../Assets/img/london cover.webp'
-import album_img5 from '../Assets/img/kashmir cover.webp'
-import album_img6 from '../Assets/img/thailand cover.webp'
-import album_img7 from '../Assets/videos/turkey cover.webm'
+import { albumList } from '../data/photographyData'
 
-const photography = () => {
-   const album_data = [
-    {title : 'People',          img : album_img1,      video: null},
-    {title : 'Nature',          img : album_img2,      video: null},
-    {title : 'Dubai',           img : album_img3,      video: null},
-    {title : 'London',          img : album_img4,      video: null},
-    {title : 'Kashmir',         img : album_img5,      video: null},
-    {title : 'Thailand',        img : album_img6,      video: null},
-    {title : 'Turkey',          img : null,            video: album_img7},
-   ];
+const Photography = () => {
+
+  const [album_list ,setalbum_list] = useState(albumList);
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="albums-container">
         {
-          album_data.map((i)=>{
+          album_list.map((i)=>{
             if(i.video===null){
               return(
-                <Link to='/album' className='album-link'>
-                  <div className="album-card">
+                  <div className="album-card" onClick={()=>{navigate('/album');}}>
                     <div className="album-card-img-container">
                       <img src={i.img} alt={i.title} className="album-card-img"/>
                     </div>
@@ -35,7 +24,6 @@ const photography = () => {
                       <h1 className="album-title">{i.title}</h1>
                     </div>
                   </div>
-                </Link>
               )
             }
             else if(i.img===null){
@@ -52,6 +40,7 @@ const photography = () => {
             }
             else{
               return(
+                <Link to='/photography/album' className='album-link'>
                 <div className="album-card">
                   <div className="album-card-img-container">
                     <img src={i.img} alt={i.title} className="album-card-img"/>
@@ -60,6 +49,7 @@ const photography = () => {
                     <h1 className="album-title">{i.title}</h1>
                   </div>
                 </div>
+                </Link>
               )
             }
           })
@@ -69,4 +59,4 @@ const photography = () => {
   )
 }
 
-export default photography
+export default Photography
