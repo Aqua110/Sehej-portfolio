@@ -22,7 +22,7 @@ const Work = () => {
             work_data.map((i)=>{
               return(
                 <div className="work-card">
-                  <Link to='/title' className='link'>
+                  <Link to={i.id} className='link'>
                     <div className="work-img-container">
                       <img src={i.img} alt={i.type} className="work-img"/>
                     </div>

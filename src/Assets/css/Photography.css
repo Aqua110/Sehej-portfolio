@@ -19,7 +19,9 @@
     overflow: hidden;
 }
 .album-card-img{
-    height: 35vh;
+    min-width: 100%;
+    min-height: 100%;
+    filter: grayscale(1);
 }
 .album-title{
     margin-top: 10px;
