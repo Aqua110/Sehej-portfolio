@@ -20,7 +20,7 @@
     max-height: 80vh;
     /* box-shadow: 0  6px 20px -4px black; */
 }
-.work-page-main-img-container::after{
+/* .work-page-main-img-container::after{
     content: '';
     width: 80%;
     height: 40%;
@@ -30,7 +30,7 @@
     background-color: #A4D75D;
     z-index: -1;
     border-radius: 100px 0 0 100px;
-}
+} */
 .work-desc-container{
     width: 50vw;
     margin: 40px auto;
