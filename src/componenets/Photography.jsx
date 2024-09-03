@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Assets/css/Photography.css'
 import album_img1 from '../Assets/img/people cover.webp'
 import album_img2 from '../Assets/img/nature cover.webp'
@@ -20,19 +21,21 @@ const photography = () => {
    ];
   return (
     <>
-      <div className="album-container">
+      <div className="albums-container">
         {
           album_data.map((i)=>{
             if(i.video===null){
               return(
-                <div className="album-card">
-                  <div className="album-card-img-container">
-                    <img src={i.img} alt={i.title} className="album-card-img"/>
+                <Link to='/album' className='album-link'>
+                  <div className="album-card">
+                    <div className="album-card-img-container">
+                      <img src={i.img} alt={i.title} className="album-card-img"/>
+                    </div>
+                    <div className="album-title-container">
+                      <h1 className="album-title">{i.title}</h1>
+                    </div>
                   </div>
-                  <div className="album-title-container">
-                    <h1 className="album-title">{i.title}</h1>
-                  </div>
-                </div>
+                </Link>
               )
             }
             else if(i.img===null){

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Assets/css/footer.css'
+import logo from '../Assets/img/segej logo.webp'
 import facebook_icon from '../Assets/icons/facebook.webp'
 import instagram_icon from '../Assets/icons/instagram.webp'
 import pintrest_icon from '../Assets/icons/pintrest.webp'
@@ -22,7 +23,7 @@ const Footer = () => {
     <>
       <div className="footer-container">
         <div className="main-footer">
-          <h1 className="footer-heading">Sehej</h1>
+          <img src={logo} alt="sehej" className="footer-logo" />
           <ul className="social-link-list">
             {
               social_data.map((i)=>{

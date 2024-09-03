@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 // import WorkDetails from './sub pages/Work_details'
 import '../Assets/css/Work.css'
@@ -22,6 +22,8 @@ const Work = () => {
     {title : 'World Government Summit',     type : 'Data Visualisation',          img : work_img7},
     {title : 'HKRN',                        type : 'Logo Designing',              img : work_img2},
   ]
+  const[workData, setWorkdata] = useState(work_data);
+  const user = "admin"
 
   return (
     <>
@@ -33,10 +35,10 @@ const Work = () => {
         </div>
         <div className="work-card-container">
           {
-            work_data.map((i)=>{
+            workData.map((i)=>{
               return(
                 <div className="work-card">
-                  <Link to='/title'>
+                  <Link to='/title' className='link'>
                     <div className="work-img-container">
                       <img src={i.img} alt={i.type} className="work-img"/>
                     </div>

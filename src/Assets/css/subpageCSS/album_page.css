@@ -1,0 +1,29 @@
+.full-container{
+    box-sizing: border-box;
+}
+.album-container{
+    margin: 30px auto;
+    columns: 4;
+    column-gap: 20px;
+    width: 95%;
+    box-sizing: border-box;
+    
+}
+.album-img-container{
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.album-img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+} 
+/* .album-img-container:nth-child(2){
+    height: 50vh;
+} */

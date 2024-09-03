@@ -1,8 +1,11 @@
-.album-container{
+.albums-container{
     margin: 30px 60px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.album-link{
+    text-decoration: none;
 }
 .album-card{
     margin: 30px 4vw;
