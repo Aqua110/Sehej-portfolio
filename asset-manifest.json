@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sehej-portfolio/static/css/main.157dabca.css",
-    "main.js": "/Sehej-portfolio/static/js/main.bc98927d.js",
+    "main.css": "/Sehej-portfolio/static/css/main.69dbe71a.css",
+    "main.js": "/Sehej-portfolio/static/js/main.0fec1cfa.js",
     "static/js/453.6171d5ac.chunk.js": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js",
     "static/media/Ashwin&Khushbu_WeddingInvitationDesign.webp": "/Sehej-portfolio/static/media/Ashwin&Khushbu_WeddingInvitationDesign.9ecbd2c34c3ed612e8f9.webp",
     "static/media/turkey cover.webm": "/Sehej-portfolio/static/media/turkey cover.77a680e3ade9d10874e9.webm",
@@ -25,23 +25,28 @@
     "static/media/Tangerine-Regular.ttf": "/Sehej-portfolio/static/media/Tangerine-Regular.6b04eb83dd71e2762243.ttf",
     "static/media/MrDeHaviland-Regular.ttf": "/Sehej-portfolio/static/media/MrDeHaviland-Regular.5f7dc1c382552ee3a6c0.ttf",
     "static/media/people cover.webp": "/Sehej-portfolio/static/media/people cover.c3e1f51f1c733269f25b.webp",
+    "static/media/th (3).webp": "/Sehej-portfolio/static/media/th (3).d37092c92c2f483e00ab.webp",
     "static/media/london cover.webp": "/Sehej-portfolio/static/media/london cover.a6c5e526cf5ab658c5a5.webp",
+    "static/media/th (4).webp": "/Sehej-portfolio/static/media/th (4).a6c5e526cf5ab658c5a5.webp",
     "static/media/instagram.webp": "/Sehej-portfolio/static/media/instagram.0c90bb1454ba25eb449d.webp",
+    "static/media/th (2).webp": "/Sehej-portfolio/static/media/th (2).36fbd54b31b9d67fb42c.webp",
     "static/media/pintrest.webp": "/Sehej-portfolio/static/media/pintrest.7019dd35e9b3dab8021b.webp",
     "static/media/vimeo.webp": "/Sehej-portfolio/static/media/vimeo.d87ddff5eed360291325.webp",
     "static/media/mail.webp": "/Sehej-portfolio/static/media/mail.4ce35fed09c243b4f208.webp",
+    "static/media/th (1).webp": "/Sehej-portfolio/static/media/th (1).c4d5c87b8ab0a79c8305.webp",
     "static/media/phone.webp": "/Sehej-portfolio/static/media/phone.0dea3b99fdba65d560bb.webp",
     "static/media/youtube.webp": "/Sehej-portfolio/static/media/youtube.d9ce0d0869c359036cbb.webp",
     "static/media/close.webp": "/Sehej-portfolio/static/media/close.3c8688045062f829a9da.webp",
     "static/media/menu.webp": "/Sehej-portfolio/static/media/menu.996fea61a13ccd363430.webp",
     "static/media/facebook.webp": "/Sehej-portfolio/static/media/facebook.7ca43c356dd45955bcef.webp",
+    "static/media/segej logo.webp": "/Sehej-portfolio/static/media/segej logo.a477d12944fdff184438.webp",
     "index.html": "/Sehej-portfolio/index.html",
-    "main.157dabca.css.map": "/Sehej-portfolio/static/css/main.157dabca.css.map",
-    "main.bc98927d.js.map": "/Sehej-portfolio/static/js/main.bc98927d.js.map",
+    "main.69dbe71a.css.map": "/Sehej-portfolio/static/css/main.69dbe71a.css.map",
+    "main.0fec1cfa.js.map": "/Sehej-portfolio/static/js/main.0fec1cfa.js.map",
     "453.6171d5ac.chunk.js.map": "/Sehej-portfolio/static/js/453.6171d5ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.157dabca.css",
-    "static/js/main.bc98927d.js"
+    "static/css/main.69dbe71a.css",
+    "static/js/main.0fec1cfa.js"
   ]
 }
