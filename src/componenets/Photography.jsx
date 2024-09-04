@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Link } from 'react-router-dom'
 import '../Assets/css/Photography.css'
 import { albumList } from '../data/photographyData'
 
 const Photography = () => {
 
-  const [album_list ,setalbum_list] = useState(albumList);
+  const [album_list] = useState(albumList);
   const navigate = useNavigate();
 
   return (

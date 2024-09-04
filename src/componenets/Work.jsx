@@ -3,14 +3,15 @@ import { Link } from 'react-router-dom'
 // import WorkDetails from './sub pages/Work_details'
 import '../Assets/css/Work.css'
 import { workData } from '../data/workData.js'
-
+import Dubai from "../componenets/Demo.jsx"
 
 const Work = () => {
 
-  const[work_data, setWorkdata] = useState(workData);
+  const[work_data] = useState(workData);
 
   return (
     <>
+    <Dubai />
       <div className="work-body">
         <div className="hero-para-container">
           <p className="hero-para">
@@ -22,7 +23,7 @@ const Work = () => {
             work_data.map((i)=>{
               return(
                 <div className="work-card">
-                  <Link to={i.id} className='link'>
+                  <Link to={`/work/${i.id}`} className='link'>
                     <div className="work-img-container">
                       <img src={i.img} alt={i.type} className="work-img"/>
                     </div>
