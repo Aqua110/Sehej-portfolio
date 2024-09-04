@@ -13,7 +13,11 @@ const About = () => {
           <div className="about-content-container">
             <h1 className='about-heading'>Sehej Kaur</h1>
             <br />
-            <p className="about-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cum esse, neque cumque aliquid officiis quidem nihil molestiae veniam laboriosam mollitia dolorum autem accusantium dolor fugit voluptatem aliquam numquam aspernatur molestias magni dolores ex harum repellat perspiciatis eveniet ad incidunt eius, sit similique, reiciendis maxime nihil non? <br /> <br/>Iusto quidem dolorem enim quasi labore libero magni delectus mollitia nesciunt doloremque numquam, exercitationem a magnam dignissimos commodi sunt quisquam, odit fugiat qui eligendi voluptate obcaecati recusandae.  Dolores nisi blanditiis vitae! Perspiciatis enim sapiente dolorum consectetur beatae necessitatibus accusantium consequuntur pariatur praesentium deserunt qui quaerat veritatis earum quis, illum molestias impedit. Odit quaerat praesentium nisi? <br/><br/> Officia quis iste expedita blanditiis laudantium consequatur, aliquam provident voluptatibus delectus alias saepe necessitatibus enim? Eveniet harum eius esse veritatis, aperiam optio itaque dolore incidunt iure laudantium sit adipisci quo culpa necessitatibus sequi doloremque enim ab, provident veniam labore nostrum nam.</p>
+            <p className="about-para">Sehej Kaur is a communication designer working with brands and companies in Delhi and UK. She was born and raised in New Delhi, India and has pursued her undergraduate degree from the prestigious National Institute of Design. Her specialisation lies in brand strategy and identity design. <br /><br />
+            
+            Sehej has been in the industry for around four years having worked for iconic Indian brands like Mother Dairy, SBI, and Eno as a communication and digital designer. Her range of work varies from food and beverage, to medical, as well as wellness brands. Sehej has created extensive event branding for a plethora of weddings in India and overseas. Sehej is currently working with companies in India and a few foreign startups. She also has experience working with Ogilvy, a leading brand marketing agency worldwide, and a few advertising agencies in India while pursuing her undergraduate degree. <br /> <br />
+            
+            In her free time, you can find her travelling across continents, engrossed in photography, and trying out new restaurants.</p>
           </div>
         </div>
       </div>
