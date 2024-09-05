@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 import '../../Assets/css/subpageCSS/work_page.css'
 import { workData } from '../../data/workData'
@@ -6,8 +6,26 @@ import { workData } from '../../data/workData'
 const WorkPage = () => {
 
   const param = useParams();
-  const [work_data] = useState(workData);
-  const [project] = useState(work_data[param.id-1]);
+  const [work_data,setwork_data] = useState(workData);
+
+  useEffect(() => {
+    getData()
+},[]);
+const getData = async() =>{
+    try {
+        
+        const respose  = await fetch("http://localhost:8000/getworks");
+        const data = await respose.json();
+        // console.log("Respose of server", data);
+        setwork_data(data);
+    } catch (error) {
+        console.log("eeror", error)
+    }
+}
+
+  // setwork_data(workData)
+  const [project] = useState(work_data[(param.id)-1]);
+  // setproject(work_data[(param.id)-1])
 
   return (
     <>
@@ -26,13 +44,13 @@ const WorkPage = () => {
           <p className="work-desc">{project.desc2}</p>
         </div>
         <div className="more-img-container">
-          {
+          {/* {
             project.img2.map((i)=>{
               return(
                 <img src={i} alt={project.type} className="more-img" />
               )            
             })
-          }
+          } */}
         </div>
         
     </>

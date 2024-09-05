@@ -4,14 +4,30 @@ import { Link } from 'react-router-dom'
 import '../Assets/css/Work.css'
 import { workData } from '../data/workData.js'
 import Dubai from "../componenets/Demo.jsx"
+import { useEffect } from 'react'
 
 const Work = () => {
 
-  const[work_data] = useState(workData);
+  const[work_data,setwork_data] = useState(workData);
+
+  useEffect(() => {
+    getData()
+},[]);
+const getData = async() =>{
+    try {
+        
+        const respose  = await fetch("http://localhost:8000/getworks");
+        const data = await respose.json();
+        // console.log("Respose of server", data);
+        setwork_data(data);
+    } catch (error) {
+        console.log("eeror", error)
+    }
+}
 
   return (
     <>
-    <Dubai />
+    {/* <Dubai /> */}
       <div className="work-body">
         <div className="hero-para-container">
           <p className="hero-para">

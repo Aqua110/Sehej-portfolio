@@ -6,6 +6,7 @@ import { albumList } from '../data/photographyData'
 const Photography = () => {
 
   const [album_list] = useState(albumList);
+  // setalbum_list(albumList);
   const navigate = useNavigate();
 
   return (
@@ -15,7 +16,7 @@ const Photography = () => {
           album_list.map((i)=>{
             if(i.video===null){
               return(
-                  <div className="album-card" onClick={()=>{navigate('/title');}}>
+                  <div className="album-card" onClick={()=>{navigate(`/photography/${i.path}`);}}>
                     <div className="album-card-img-container">
                       <img src={i.img} alt={i.title} className="album-card-img"/>
                     </div>
@@ -27,7 +28,7 @@ const Photography = () => {
             }
             else if(i.img===null){
               return(
-                <div className="album-card" onClick={()=>{navigate('/title');}}>
+                <div className="album-card" onClick={()=>{navigate(`/photography/${i.path}`);}}>
                   <div className="album-card-img-container">
                     <video src={i.video} className="album-card-video" autoPlay muted loop></video>
                   </div>
@@ -39,7 +40,7 @@ const Photography = () => {
             }
             else{
               return(
-                <div className="album-card"onClick={()=>{navigate('/title');}}>
+                <div className="album-card"onClick={()=>{navigate(`/photography/${i.path}`);}}>
                   <div className="album-card-img-container">
                     <img src={i.img} alt={i.title} className="album-card-img"/>
                   </div>
