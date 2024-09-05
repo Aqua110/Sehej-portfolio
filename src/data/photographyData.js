@@ -9,7 +9,7 @@ import album_video7 from '../Assets/videos/turkey cover.webm'
 
 export const albumList = [
     {title : 'People',          img : album_img1,      video: null,              path : 'people'},
-    {title : 'Nature',          img : album_img2,      video: null,              path : 'natute'},
+    {title : 'Nature',          img : album_img2,      video: null,              path : 'nature'},
     {title : 'Dubai',           img : album_img3,      video: null,              path : 'dubai'},
     {title : 'London',          img : album_img4,      video: null,              path : 'london'},
     {title : 'Kashmir',         img : album_img5,      video: null,              path : 'kashmir'},
