@@ -9,6 +9,10 @@ import Photography from './componenets/Photography';
 import About from './componenets/About';
 import Footer from './componenets/Footer';
 import AlbumPage from './componenets/sub pages/AlbumPage';
+import Admin from './componenets/Admin';
+import Addimg from './componenets/sub pages/Addimg';
+import Addalbum from './componenets/sub pages/Addalbum';
+import Addwork from './componenets/sub pages/Addwork';
 // import Additem from './componenets/sub pages/Additem';
 // import Deleteitem from './componenets/sub pages/Deleteitem';
 // import Admin from './componenets/Admin';
@@ -25,10 +29,11 @@ function App() {
           <Route path='/photography' element={<Photography/>}></Route>
           <Route path='/photography/:path' element={<AlbumPage/>}></Route>
           <Route path='/about'element={<About/>}></Route>
-          {/* <Route path='/admin' element={<Admin/>}>
-            <Route path='add' element={<Additem/>}/>
-            <Route path='delete' element={<Deleteitem/>}/>
-          </Route> */}
+          <Route path='/admin' element={<Admin/>}>
+            <Route path='addimg' element={<Addimg/>}/>
+            <Route path='addalbum' element={<Addalbum/>}/>
+            <Route path='addwork' element={<Addwork/>}/>
+          </Route>
         </Routes>
         <Footer/>
     </Router>
