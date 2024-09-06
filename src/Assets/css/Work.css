@@ -9,7 +9,6 @@
     font-weight: 100;
 }
 .work-card-container{
-    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,7 +20,7 @@
     width: 28vw;
     height: 40vh;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     overflow: hidden;
 }

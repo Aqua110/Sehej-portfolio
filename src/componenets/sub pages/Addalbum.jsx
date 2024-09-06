@@ -1,11 +1,9 @@
 import React, { useRef, useState } from "react";
 
-const Addwork = () => {
+const Addalbum = () => {
   const [albumtitle, setalbumtitle] = useState("");
-  const [albumtype, setalbumtype] = useState("");
-  const [shortdesc, setshortdesc] = useState("");
-  const [maindesc, setmaindesc] = useState("");
   const [image, setImage] = useState(null);
+  const [video, setvideo] = useState(null);
   const fileInputRef = useRef(null); // Create a ref for the file input
 
   const generateUniqueId = () => {
@@ -20,14 +18,13 @@ const Addwork = () => {
     // Create a FormData object to send the album name, image, and ID
     const formData = new FormData();
     formData.append("title", albumtitle);  // Album name
-    formData.append("type", albumtype);  // Album name
+    formData.append("path", albumtitle.toLocaleLowerCase());  // Album name
     formData.append("mainimg", image);            // Image file
-    formData.append("desc1", shortdesc);            // Image file
-    formData.append("desc2", maindesc);            // Image file
+    formData.append("mainvideo", video);            // Image file
     formData.append("id", randomId);          // Random ID
 
     try {
-      const response = await fetch("http://localhost:8000/addwork", {
+      const response = await fetch("http://localhost:8000/addalbum", {
         method: "POST",
         body: formData,
       });
@@ -37,10 +34,8 @@ const Addwork = () => {
 
       // Reset the form after successful submission
       setalbumtitle("");
-      setalbumtype("");
-      setshortdesc("");
-      setmaindesc("");
       setImage(null);
+      setvideo(null);
       fileInputRef.current.value = null; // Clear the file input
     } catch (error) {
       console.error("Error:", error);
@@ -50,13 +45,16 @@ const Addwork = () => {
   const handleImageChange = (e) => {
     setImage(e.target.files[0]); // Store the selected file in state
   };
+  const handlevideoChange = (e) => {
+    setvideo(e.target.files[0]); // Store the selected file in state
+  };
 
   return (
     <div className="form-container">
-      <h1>Add a new Work</h1>
+      <h1>Add a new Album</h1>
       <form onSubmit={handleSubmit} className="admin-form">
         <div className="form-feild">
-        <label htmlFor="album">Work Title : </label> <br />
+        <label htmlFor="album">Album Name : </label> <br />
             <input
             type="text"
             placeholder="eg. Dubai"
@@ -65,45 +63,24 @@ const Addwork = () => {
             required
             />
         </div>
-        <div className="form-feild">
-        <label htmlFor="album">Work Type : </label> <br />
-            <input
-            type="text"
-            placeholder="eg. Dubai"
-            value={albumtype}
-            onChange={(e) => setalbumtype(e.target.value)}
-            required
-            />
-        </div>
-        <div className="form-feild">
-        <label htmlFor="album">Short Description : </label> <br />
-        <textarea
-             cols={100}
-             rows={4}
-            placeholder="eg. Dubai"
-            value={shortdesc}
-            onChange={(e) => setshortdesc(e.target.value)}
-            required
-            ></textarea>
-        </div>        
-        <div className="form-feild">
-        <label htmlFor="album">Main Description : </label> <br />
-            <textarea
-            cols={100}
-            rows={20}
-            placeholder="eg. Dubai"
-            value={maindesc}
-            onChange={(e) => setmaindesc(e.target.value)}
-            required
-            ></textarea>
-        </div>
         <div className="form-feild-file">
+        <input type="radio" name="mainimg"/>
         <label htmlFor="mainimg">Upload the cover Image : </label> <br />
         <input
           type="file"
           accept="image/*"
           onChange={handleImageChange}
           required
+          ref={fileInputRef}
+        />
+        </div>
+        <div className="form-feild-file">
+        <input type="radio" name="mainimg"/>
+        <label htmlFor="mainimg">Upload the cover Video : </label> <br />
+        <input
+          type="file"
+          accept="video/*"
+          onChange={handlevideoChange}
           ref={fileInputRef}
         />
         </div>
@@ -115,4 +92,4 @@ const Addwork = () => {
   );
 };
 
-export default Addwork;
+export default Addalbum;
