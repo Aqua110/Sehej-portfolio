@@ -1,5 +1,5 @@
 import album_img1 from '../Assets/img/people cover.webp'
-import album_img2 from '../Assets/img/nature cover.webp'
+import album_img2 from '../Assets/img/Nature_coverphoto.webp'
 import album_img3 from '../Assets/img/dubaicover.webp'
 import album_img4 from '../Assets/img/LondonCover.webp'
 import album_img5 from '../Assets/img/Kashmircoverpic .webp'
