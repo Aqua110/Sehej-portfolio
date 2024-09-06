@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sehej-portfolio/static/css/main.fe697e6f.css",
-    "main.js": "/Sehej-portfolio/static/js/main.1803d07e.js",
+    "main.js": "/Sehej-portfolio/static/js/main.48737f27.js",
     "static/js/453.fb408777.chunk.js": "/Sehej-portfolio/static/js/453.fb408777.chunk.js",
     "static/media/IMG_0938.jpg": "/Sehej-portfolio/static/media/IMG_0938.f3245be88c977232e6ae.jpg",
     "static/media/Ashwin&Khushbu_WeddingInvitationDesign.webp": "/Sehej-portfolio/static/media/Ashwin&Khushbu_WeddingInvitationDesign.9ecbd2c34c3ed612e8f9.webp",
@@ -26,6 +26,7 @@
     "static/media/IMG_2612.jpg": "/Sehej-portfolio/static/media/IMG_2612.acdfdd810ec80796b5dc.jpg",
     "static/media/Snapseed.jpg": "/Sehej-portfolio/static/media/Snapseed.e38b8d04713de9920739.jpg",
     "static/media/IMG_2530.jpg": "/Sehej-portfolio/static/media/IMG_2530.6af58c0e16a5232f4415.jpg",
+    "static/media/Nature_coverphoto.webp": "/Sehej-portfolio/static/media/Nature_coverphoto.90335145e422b063007e.webp",
     "static/media/AsterionStarPetCBD_PackagingDesign.webp": "/Sehej-portfolio/static/media/AsterionStarPetCBD_PackagingDesign.372b875bbdcc2f9295dc.webp",
     "static/media/about img.jpg": "/Sehej-portfolio/static/media/about img.3f52b159b145c1cddcd9.jpg",
     "static/media/LondonCover.webp": "/Sehej-portfolio/static/media/LondonCover.896986059c801f50b494.webp",
@@ -39,7 +40,6 @@
     "static/media/Merienda-VariableFont_wght.ttf": "/Sehej-portfolio/static/media/Merienda-VariableFont_wght.373b823211bb1d6f1f8b.ttf",
     "static/media/World Government Summit_ Data Visualisation Design.webp": "/Sehej-portfolio/static/media/World Government Summit_ Data Visualisation Design.c9807bdd10e0e8f4860e.webp",
     "static/media/YagaLiving.webp": "/Sehej-portfolio/static/media/YagaLiving.c4bd1ce24cf86c72deb5.webp",
-    "static/media/nature cover.webp": "/Sehej-portfolio/static/media/nature cover.392f14f29fee835aa17a.webp",
     "static/media/MeieScript-Regular.ttf": "/Sehej-portfolio/static/media/MeieScript-Regular.c33493100b2057b93ad1.ttf",
     "static/media/TenorSans-Regular.ttf": "/Sehej-portfolio/static/media/TenorSans-Regular.0d22289d38b3d37f95b6.ttf",
     "static/media/MilkyMoo_Brand Identity Design.webp": "/Sehej-portfolio/static/media/MilkyMoo_Brand Identity Design.684f79edf47991536ff3.webp",
@@ -59,11 +59,11 @@
     "static/media/segej logo.webp": "/Sehej-portfolio/static/media/segej logo.a477d12944fdff184438.webp",
     "index.html": "/Sehej-portfolio/index.html",
     "main.fe697e6f.css.map": "/Sehej-portfolio/static/css/main.fe697e6f.css.map",
-    "main.1803d07e.js.map": "/Sehej-portfolio/static/js/main.1803d07e.js.map",
+    "main.48737f27.js.map": "/Sehej-portfolio/static/js/main.48737f27.js.map",
     "453.fb408777.chunk.js.map": "/Sehej-portfolio/static/js/453.fb408777.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe697e6f.css",
-    "static/js/main.1803d07e.js"
+    "static/js/main.48737f27.js"
   ]
 }
