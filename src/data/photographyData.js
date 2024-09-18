@@ -8,11 +8,11 @@ import album_video7 from '../Assets/videos/turkey cover.webm'
 
 
 export const albumList = [
-    {title : 'People',          img : album_img1,      video: null,              path : 'people'},
-    {title : 'Nature',          img : album_img2,      video: null,              path : 'nature'},
-    {title : 'Dubai',           img : album_img3,      video: null,              path : 'dubai'},
-    {title : 'London',          img : album_img4,      video: null,              path : 'london'},
-    {title : 'Kashmir',         img : album_img5,      video: null,              path : 'kashmir'},
-    {title : 'Thailand',        img : album_img6,      video: null,              path : 'thailand'},
-    {title : 'Turkey',          img : null,            video: album_video7,      path : 'turkey'},
+    {title : 'People',          mainimg : album_img1,      mainvideo: null,              path : 'people'},
+    {title : 'Nature',          mainimg : album_img2,      mainvideo: null,              path : 'nature'},
+    {title : 'Dubai',           mainimg : album_img3,      mainvideo: null,              path : 'dubai'},
+    {title : 'London',          mainimg : album_img4,      mainvideo: null,              path : 'london'},
+    {title : 'Kashmir',         mainimg : album_img5,      mainvideo: null,              path : 'kashmir'},
+    {title : 'Thailand',        mainimg : album_img6,      mainvideo: null,              path : 'thailand'},
+    {title : 'Turkey',          mainimg : null,            mainvideo: album_video7,      path : 'turkey'}
    ];

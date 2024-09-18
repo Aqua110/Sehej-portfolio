@@ -1,6 +1,5 @@
 .admincontainer{
     margin: 30px 60px;
-    min-height: 60vh;
 }
 .req-list{
     display: flex;
@@ -16,6 +15,9 @@
 /* subpage css */
 .form-container{
     margin: 30px 60px;
+    min-height: 60vh;
+    width: 950px;
+    margin: 0 auto;
 }
 .admin-form{
     display: flex;
@@ -43,4 +45,36 @@
     padding: 5px;
     margin-left: 10px;
 
+}
+.delete-icon{
+    align-items: center;
+    height: 4vh;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.delete-icon:first-child{
+    margin-left: 0;
+}
+.del-icon-container{
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00000080; 
+}
+.album-img-container:hover>.del-icon-container{
+    display: flex;
+    cursor: pointer;
+}
+.filter{
+    margin-left: 60px;
+    padding-bottom:  0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-icon{
+    height: 10vh;
 }

@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 .album-container{
+    min-height: 55vh;
     margin: 30px auto;
     columns: 4;
     column-gap: 20px;
@@ -10,6 +11,7 @@
     
 }
 .album-img-container{
+    position: relative;
     max-width: 100%;
     overflow: hidden;
     margin-bottom: 20px;
@@ -23,7 +25,79 @@
     object-fit: cover;
     min-width: 100%;
     min-height: 100%;
-} 
-/* .album-img-container:nth-child(2){
-    height: 50vh;
-} */
+}
+
+.fullimg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 60px;
+}
+.fullimg-container>img{
+    height: 700px;
+}
+
+@media only screen and (min-width: 500px) and (max-width:1024px){
+    .album-container{
+        margin: 30px auto;
+        columns: 3;
+        column-gap: 10px;
+        width: 95%;
+        box-sizing: border-box;  
+    }
+    .album-img-container{
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .fullimg-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 60px;
+        min-height: 80vh;
+    }
+    .fullimg-container>img{
+        height: 500px;
+    }
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 500px){
+    .album-container{
+        margin: 30px auto;
+        columns: 2;
+        column-gap: 10px;
+        width: 95%;
+        box-sizing: border-box;  
+    }
+    .album-img-container{
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .fullimg-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 60px;
+        min-height: 80vh;
+    }
+    .fullimg-container>img{
+        height: 80vw;
+    }
+    
+}
