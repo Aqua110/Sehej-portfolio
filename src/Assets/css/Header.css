@@ -70,8 +70,11 @@ nav{
 
 
 @media only screen and (min-width: 500px) and (max-width:1024px){
-    .logo-txt{
-        font-size: 55px;       
+    .logo{
+        margin-left: 30px;       
+    }
+    .menu-list{
+        margin-right: 60px;
     }
     .menu-list li{
         padding: 10px 0;
@@ -112,9 +115,8 @@ nav{
     nav.menu-active{
         overflow-x: visible;
     }
-    .logo-txt{
-        font-size: 40px;
-        margin-left: 10px;
+    .logo{
+        margin-left: 20px;
     }
     .menu-btn-icon{
         display: block;
@@ -134,6 +136,7 @@ nav{
         pointer-events: none;
         visibility: hidden;
         transition: all 400ms ease-in;
+        z-index: 3;
     }
     .menu-container.active{
         transform: translateX(0);
@@ -144,6 +147,7 @@ nav{
 
     .menu-list{
         flex-direction: column;
+        margin-right: 0;
     }
     .menu-list li{
         margin: 35px 0;
